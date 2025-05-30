@@ -241,10 +241,10 @@ http_archive(
 # crashes on some Android devices.
 http_archive(
     name = "com_github_glog_glog_windows",
-    strip_prefix = "glog-3a0d4d22c5ae0b9a2216988411cfa6bf860cc372",
-    sha256 = "170d08f80210b82d95563f4723a15095eff1aad1863000e8eeb569c96a98fefb",
+    strip_prefix = "glog-53d58e4531c7c90f71ddab503d915e027432447a",
+    sha256 = "422d4417a239105c635adffe33eeef2357d679bf8f4e1cd901fdc117f2fac9b0",
     urls = [
-      "https://github.com/google/glog/archive/3a0d4d22c5ae0b9a2216988411cfa6bf860cc372.zip",
+      "https://github.com/google/glog/archive/53d58e4531c7c90f71ddab503d915e027432447a.zip",
     ],
     patches = [
         "@//third_party:com_github_glog_glog.diff",

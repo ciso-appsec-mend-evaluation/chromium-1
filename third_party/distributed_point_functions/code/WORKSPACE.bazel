@@ -97,10 +97,10 @@ http_archive(
 # https://github.com/gflags/gflags
 http_archive(
     name = "com_github_gflags_gflags",
-    sha256 = "017e0a91531bfc45be9eaf07e4d8fed33c488b90b58509dbd2e33a33b2648ae6",
-    strip_prefix = "gflags-a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd",
+    sha256 = "b54648d1e260725bb2b73d64b878786a157a65e012b148887eaa1e711ee3f765",
+    strip_prefix = "gflags-bdda022e7c34ab865c96fc933604b4b3e617d74d",
     urls = [
-        "https://github.com/gflags/gflags/archive/a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd.zip",
+        "https://github.com/gflags/gflags/archive/bdda022e7c34ab865c96fc933604b4b3e617d74d.zip",
     ],
 )
 

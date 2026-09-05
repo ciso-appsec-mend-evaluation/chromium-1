@@ -75,10 +75,10 @@ http_archive(
 # https://github.com/google/boringssl
 http_archive(
     name = "boringssl",
-    sha256 = "88e4330f4f65ebfdf24847e4807c25f3eacfd5bf1a93f6629d3941196ff9b0b3",
-    strip_prefix = "boringssl-6347808f2a480a3792148bf7732232229db9b909",
+    sha256 = "72abef9b0bae80131fb2979a40f9b84d93b305bb56dd0c284ac7ced8d7527caf",
+    strip_prefix = "boringssl-4a92579453b35319e2707eab68a0b7d1f8d5d053",
     urls = [
-        "https://github.com/google/boringssl/archive/6347808f2a480a3792148bf7732232229db9b909.zip",
+        "https://github.com/google/boringssl/archive/4a92579453b35319e2707eab68a0b7d1f8d5d053.zip",
     ],
 )
 

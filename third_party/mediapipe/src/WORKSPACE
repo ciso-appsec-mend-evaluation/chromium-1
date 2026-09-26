@@ -115,9 +115,9 @@ http_archive(
 http_archive(
     name = "XNNPACK",
     # `curl -L <url> | shasum -a 256`
-    sha256 = "0e5d5c16686beff813e3946b26ca412f28acaf611228d20728ffb6479264fe19",
-    strip_prefix = "XNNPACK-9ddeb74f9f6866174d61888947e4aa9ffe963b1b",
-    url = "https://github.com/google/XNNPACK/archive/9ddeb74f9f6866174d61888947e4aa9ffe963b1b.zip",
+    sha256 = "5869fd3c2ec01b55961af271551b35d4244f94365be781d94c354b381f41e041",
+    strip_prefix = "XNNPACK-98252f251c3c075542498c546a6ee9cfbc5e5730",
+    url = "https://github.com/google/XNNPACK/archive/98252f251c3c075542498c546a6ee9cfbc5e5730.zip",
 )
 
 # TODO: This is an are indirect depedency. We should factor it out.

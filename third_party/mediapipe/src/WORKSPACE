@@ -380,15 +380,15 @@ http_archive(
 # Point to the commit that deprecates the usage of Eigen::MappedSparseMatrix.
 http_archive(
     name = "ceres_solver",
-    url = "https://github.com/ceres-solver/ceres-solver/archive/123fba61cf2611a3c8bddc9d91416db26b10b558.zip",
+    url = "https://github.com/ceres-solver/ceres-solver/archive/dd4199f718d27cf92eaf259ce52dca0abd0b9626.zip",
     patches = [
         "@//third_party:ceres_solver_compatibility_fixes.diff"
     ],
     patch_args = [
         "-p1",
     ],
-    strip_prefix = "ceres-solver-123fba61cf2611a3c8bddc9d91416db26b10b558",
-    sha256 = "8b7b16ceb363420e0fd499576daf73fa338adb0b1449f58bea7862766baa1ac7"
+    strip_prefix = "ceres-solver-dd4199f718d27cf92eaf259ce52dca0abd0b9626",
+    sha256 = "c9b4a9ffad586e41765872f4c9c555fc763e02041b2eea8d5a5bf7726b4c91d6"
 )
 
 http_archive(
